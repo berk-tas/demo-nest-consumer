@@ -1,0 +1,20 @@
+{
+  "name": "@demo/config-contracts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "generated"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "generate": "yarn generate:json-schema && yarn generate:go",
+    "generate:json-schema": "tsx scripts/generate-json-schema.ts",
+    "generate:go": "tsx scripts/generate-go.ts"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "yalcSig": "9cfb2adf4a9c4cd340aa95d9d2b62025"
+}

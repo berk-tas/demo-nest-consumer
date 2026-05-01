@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "@demo/config-contracts": {
+      "signature": "9cfb2adf4a9c4cd340aa95d9d2b62025",
+      "file": true
+    }
+  }
+}
